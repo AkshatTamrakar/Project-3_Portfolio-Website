@@ -33,6 +33,7 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 100;
+    /* border-bottom:#3498db solid 1px ; */
 }
 
 .logo{
@@ -81,30 +82,6 @@ section{
     justify-content: center;
     align-items: center;
     gap: 12rem;
-}
-
-
-.home-circle-1{
-    position: absolute;
-    background-color: #3498db;
-    border-radius: 50%;
-    height: 30vw;
-    width: 30vw;
-    bottom: 10rem;
-    right: 0;
-    z-index: -1;
-}
-
-.home-circle-2{
-    position: absolute;
-    background-color: #3498db;
-    border-radius: 50%;
-    width: 20vw;
-    height: 25vw;
-    margin: 0 auto;
-    top: 0;
-    right: 50px;
-    z-index: -1;
 }
 
 
@@ -454,7 +431,7 @@ section{
     opacity: 1;
     transform: translate(-50%,-50%) scale(1);
     transition: top 0ms ease-in-out 0ms,
-                opacity 300ms ease-in-out 0ms
+                opacity 300ms ease-in-out 0ms,
                 transform 300ms ease-in-out 0ms;
 }
 

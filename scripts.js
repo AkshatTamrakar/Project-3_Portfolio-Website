@@ -36,7 +36,6 @@ let changeText = ()=>{
 changeText();
 setInterval(changeText,3000)
 
-
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -44,7 +43,7 @@ let section = document.querySelectorAll('.section');
 let navLinks = document.querySelectorAll('.header nav a');
 
 window.onscroll = () => {
-    sections.forEach(sec => {
+    section.forEach(sec => {
         let top = window.scrollY;
         let offset = window.offsetTop - 150;
         let height = window.offsetHeight;
@@ -64,30 +63,58 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
-// For Java Development
-document.querySelector("#open-popup").addEventListener("click",function(){
-    document.querySelector(".popup").classList.add("active");
-});
 
-document.querySelector(".popup .close-btn").addEventListener("click",function(){
-    document.querySelector(".popup").classList.remove("active");
-});
-
-// For Web Development
-document.querySelector("#open-web-popup").addEventListener("click", function(){
+// Web Development Popup
+document.querySelector("#open-web-popup").addEventListener("click", function() {
     document.querySelector("#web-popup").classList.add("active");
 });
-
-document.querySelector("#web-popup .close-btn").addEventListener("click", function(){
+document.querySelector("#web-popup .close-btn").addEventListener("click", function() {
     document.querySelector("#web-popup").classList.remove("active");
 });
 
-// For App Development
-document.querySelector("#open-app-popup").addEventListener("click", function(){
-    document.querySelector("#app-popup").classList.add("active");
+// Java Development Popup
+document.querySelector("#open-java-popup").addEventListener("click", function() {
+    document.querySelector("#java-popup").classList.add("active");
+});
+document.querySelector("#java-popup .close-btn").addEventListener("click", function() {
+    document.querySelector("#java-popup").classList.remove("active");
 });
 
-document.querySelector("#app-popup .close-btn").addEventListener("click", function(){
+// App Development Popup
+document.querySelector("#open-app-popup").addEventListener("click", function() {
+    document.querySelector("#app-popup").classList.add("active");
+});
+document.querySelector("#app-popup .close-btn").addEventListener("click", function() {
     document.querySelector("#app-popup").classList.remove("active");
 });
+
+
+
+
+// For Java Development
+// document.querySelector("#open-popup").addEventListener("click",function(){
+//     document.querySelector(".popup").classList.add("active");
+// });
+
+// document.querySelector(".popup .close-btn").addEventListener("click",function(){
+//     document.querySelector(".popup").classList.remove("active");
+// });
+
+// For Web Development
+// document.querySelector("#open-web-popup").addEventListener("click", function(){
+//     document.querySelector("#web-popup").classList.add("active");
+// });
+
+// document.querySelector("#web-popup .close-btn").addEventListener("click", function(){
+//     document.querySelector("#web-popup").classList.remove("active");
+// });
+
+// For App Development
+// document.querySelector("#open-app-popup").addEventListener("click", function(){
+//     document.querySelector("#app-popup").classList.add("active");
+// });
+
+// document.querySelector("#app-popup .close-btn").addEventListener("click", function(){
+//     document.querySelector("#app-popup").classList.remove("active");
+// });
 
