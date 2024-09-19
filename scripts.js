@@ -87,34 +87,3 @@ document.querySelector("#open-app-popup").addEventListener("click", function() {
 document.querySelector("#app-popup .close-btn").addEventListener("click", function() {
     document.querySelector("#app-popup").classList.remove("active");
 });
-
-
-
-
-// For Java Development
-// document.querySelector("#open-popup").addEventListener("click",function(){
-//     document.querySelector(".popup").classList.add("active");
-// });
-
-// document.querySelector(".popup .close-btn").addEventListener("click",function(){
-//     document.querySelector(".popup").classList.remove("active");
-// });
-
-// For Web Development
-// document.querySelector("#open-web-popup").addEventListener("click", function(){
-//     document.querySelector("#web-popup").classList.add("active");
-// });
-
-// document.querySelector("#web-popup .close-btn").addEventListener("click", function(){
-//     document.querySelector("#web-popup").classList.remove("active");
-// });
-
-// For App Development
-// document.querySelector("#open-app-popup").addEventListener("click", function(){
-//     document.querySelector("#app-popup").classList.add("active");
-// });
-
-// document.querySelector("#app-popup .close-btn").addEventListener("click", function(){
-//     document.querySelector("#app-popup").classList.remove("active");
-// });
-
