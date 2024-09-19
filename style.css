@@ -33,7 +33,6 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 100;
-    /* border-bottom:#3498db solid 1px ; */
 }
 
 .logo{
@@ -123,7 +122,6 @@ section{
     max-width: 650px;
 }
 
-
 .change-text{
     font-size: 1.5rem;
     font-weight: 600;
@@ -140,7 +138,7 @@ section{
     display: flex;
     opacity: 0;
     font-size: 3.2rem;
-    font-weight: 600;
+    font-weight: 600;  
 }
 
 .change-text h3 .word .letter{
@@ -159,7 +157,6 @@ section{
 .change-text h3 .word .letter.behind{
     transform: rotateX(-90deg);
 }
-
 
 .social-icons a{
     display: inline-flex;
@@ -209,7 +206,6 @@ section{
     align-items: center;
     gap: 10rem;
     background: rgba(44, 62, 80, 0.7);
-
 }
 
 .about-circle{
@@ -322,7 +318,6 @@ section{
     margin: 6px 0 15px;
 }
 
-
 .timeline-content{
     background-color: #3498db;
     backdrop-filter: blur(20px);
@@ -366,7 +361,6 @@ section{
 }
 
 .skills-container .skills-box{
-
     flex: 1 1 40rem;
     display: flex;
     flex-direction: column;
@@ -378,7 +372,6 @@ section{
     border-radius: 2rem;
     text-align: center;
     border: 0.2rem solid rgb(224,224,224);
-    /* cursor: pointer; */
     transition: 0.4s ease;
 }
 
@@ -526,6 +519,7 @@ button#open-popup {
   border: 0.2rem solid rgb(224,224,224);
   transition: 0.4s ease;
 }
+
 .project-img{
     width: 300px;
     border: white solid 3px;
@@ -554,8 +548,7 @@ button#open-popup {
 .projects-container .box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
-}
-  
+} 
 
 .contact{
     background-color: rgba(44, 62, 80, 0.7);
@@ -577,7 +570,6 @@ button#open-popup {
     justify-content: center;
     flex-wrap: wrap;
 }
-
 
 .contact form .input-box input,
 .contact form textarea{
@@ -655,11 +647,9 @@ footer .social a:hover{
 }
 
 .footer .copyright{
-    margin-top: 50px;
     text-align: center;
     font-size: 16px;
     color: white;
-
 }
 
 @media(max-width:1200px){
@@ -801,4 +791,3 @@ footer .social a:hover{
    }
 
 }
-
